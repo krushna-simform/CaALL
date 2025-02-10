@@ -27,13 +27,11 @@ body{
 .aside {
     width: var(--aside-width);
     height: var(--aside-height);
-    border: 2px solid blue;
     overflow: auto;
 }
 
 .main {
     width: var(--main-width);
     height: var(--main-height);
-    border: 2px solid red;
     overflow: auto;
 }

@@ -8,8 +8,7 @@
     --card-1-color: #d7e5fa;
     --card-2-color: #dceddd;
     --card-1-bg-color: #e9f0fd;
-    --card-2-bg-color: #ecf4ed
-    ;
+    --card-2-bg-color: #ecf4ed;
 
 
     --main-mail-section-width: 68rem;
@@ -31,6 +30,7 @@
     padding: 2rem 3.2rem;
 }
 
+/* main header */
 .main-header {
     display: flex;
     align-items: center;
@@ -80,6 +80,7 @@
     border-radius: 1rem;
 }
 
+/* mail section */
 .mail-section {
     height: var(--main-mail-section-height);
     width: var(--main-mail-section-width);
@@ -96,6 +97,7 @@
     border-right: 2px #f8f8f8 solid;
 }
 
+/* mail section aside header */
 .mail-aside-header {
     display: flex;
     align-items: center;
@@ -123,6 +125,8 @@
     font-size: 0.875rem;
 }
 
+
+/* mail aside main component */
 .mail-aside-main {
     padding: 1.5rem 0;
 }
@@ -193,14 +197,14 @@
     background-color: var(--main-background-color);
 }
 
-
-
+/* mail main component */
 .mail-main {
     height: var(--main-mail-height);
     width: var(--main-mail-width);
     overflow: auto;
 }
 
+/* mail main header */
 .mail-main-header {
     height: var(--mail-main-header-height);
     border-bottom: 2px #f8f8f8 solid;
@@ -270,6 +274,7 @@
     padding: 0 1.7rem;
 }
 
+/* mail main message */
 .mail-main-message-subject {
     font-size: 1.5rem;
     color: var(--font-color);
@@ -363,6 +368,7 @@
     color: var(--font-color);
 }
 
+/* mail mian chat edit component */
 #mail-main-chat {
     margin-top: 4rem;
     margin-left: 1.7rem;
