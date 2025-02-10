@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: sans-serif;
+
+    --aside-width: 15rem;
+    --aside-height: 64rem;
+
+    --main-width: 75rem;
+    --main-height: 64rem;
+}
+
+body{
+    width: 90rem;
+    margin: auto;
+}
+
+.main-div{
+    display: flex;
+    align-items: start;
+}
+
+.aside {
+    width: var(--aside-width);
+    height: var(--aside-height);
+    border: 2px solid blue;
+    overflow: auto;
+}
+
+.main {
+    width: var(--main-width);
+    height: var(--main-height);
+    border: 2px solid red;
+    overflow: auto;
+}
