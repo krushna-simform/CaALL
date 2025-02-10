@@ -44,6 +44,7 @@
     height: 11.375rem;
     border-radius: 1rem;
     margin-top: 2.75rem;
+    cursor: pointer;
 }
 
 #aside-profile-img {
