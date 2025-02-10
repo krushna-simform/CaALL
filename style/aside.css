@@ -1,0 +1,35 @@
+.aside {
+    --background-color: #ffffff;
+    --main-background-color: #fef9ec;
+
+    --font-color: #091B3D;
+    --button-color: #2772F0;
+
+    --overview-primary: #DE350B;
+    --overview-social: #4B9F47;
+    --overview-promotion: #F5B544;
+}
+
+.aside {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--background-color);
+}
+
+/* aside main title  */
+.aside-title {
+    display: flex;
+    align-items: center;
+    margin-top: 2.75rem;
+}
+
+#aside-caall-logo {
+    margin-right: 0.5rem;
+    height: 2rem;
+    width: 2rem;
+}   
+
+.aside-title>img:nth-child(1) {
+    height: 1.5rem;
+}
